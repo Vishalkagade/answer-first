@@ -1,0 +1,28 @@
+[
+  {
+    "skills": ["answer-first"],
+    "query": "This function should return the number of times the largest value appears in the list, but it returns 1 for [3, 7, 7, 2]. What is wrong and how do I fix it?\n\n```python\ndef count_max(xs):\n    best = xs[0]\n    n = 1\n    for x in xs[1:]:\n        if x > best:\n            best = x\n            n = 1\n    return n\n```",
+    "expected_behavior": [
+      "Names the cause in the first sentence, before any walkthrough or context",
+      "Includes the complete corrected function, not only a description of the edit",
+      "Opens with no preamble and closes with no summary or offer of further help"
+    ]
+  },
+  {
+    "skills": ["answer-first"],
+    "query": "Keep it short: how do I set up a Python project with a virtual environment called .venv, a pinned requirements.txt, and a .gitignore that keeps the environment out of git?",
+    "expected_behavior": [
+      "Uses numbered steps, one action per step, each starting with a verb",
+      "Gives the exact commands and the exact .gitignore line, not a description of them",
+      "Drops no command needed to reach the end state, despite the brevity request"
+    ]
+  },
+  {
+    "skills": ["answer-first"],
+    "query": "Why does adding more workers to a parallel program eventually make it slower instead of faster?",
+    "expected_behavior": [
+      "Does not apply the style: the user asked to understand something and did not ask for brevity",
+      "Explains the reasoning at normal length rather than compressing it to steps"
+    ]
+  }
+]
