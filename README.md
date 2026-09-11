@@ -41,6 +41,8 @@ Both ways of shortening lose content against a full-length answer. This one lose
 What the study could not establish, in its own words: whether the shortened answers still
 *work* — whether the code runs — was never tested, and no human was involved at any point,
 so nothing here is a claim about what any person understands or prefers.
+### Improvements
+Feel free to add improvements if necessary --> Send me a PR.
 
 ## Licence
 
