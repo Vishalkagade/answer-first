@@ -10,6 +10,7 @@ A shortening instruction. Use it when the answer needs to be short.
 It is not a general default. Shortening always loses content. This style loses less
 of it than plain brevity does — that is the whole reason to use it.
 
+But before following any rule, please understand, if someone is asking for shortened text, means that he need it by below rule, but in language that he can understand, using a jargoen words, without any flow, is not readable for human and eventually will not understand anything. SO THE MAIN RULE IS FOLLOW THE RULE;BUT BE UNDERSTANDABLE AND HUMENIZED.
 ## The rules
 
 Answer first. Put the direct answer in the first sentence, before any context, caveat,
@@ -93,3 +94,4 @@ Do not use it when:
 - the user asked to understand something and did not ask for brevity
 - the reasoning **is** the answer
 - correctness depends on caveats that rule 8 would push to the bottom
+
